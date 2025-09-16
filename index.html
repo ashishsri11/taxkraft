@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TaxKraft - Coming Soon</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+      overflow: hidden; /* Prevent scroll */
+    }
+    .bg-overlay {
+      background: rgba(0, 0, 0, 0.55);
+    }
+  </style>
+</head>
+<body class="h-screen w-screen bg-cover bg-center relative" style="background-image: url('assets/background.jpg');">
+  
+  <!-- Overlay -->
+  <div class="absolute inset-0 bg-overlay flex items-center justify-center text-center" style="background-color: rgba(0, 0, 0, 0.9)">
+    
+    <div class="max-w-2xl px-6 text-white">
+      
+      <!-- Logo -->
+      <div class="mb-6">
+        <img src="assets/logo.png" alt="TaxKraft Logo" class="mx-auto w-80">
+      </div>
+
+      <!-- Heading -->
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">We’re Launching Soon</h1>
+      <p class="text-lg md:text-xl mb-8 opacity-90">Our new website is under construction. Stay tuned for the big launch.</p>
+      
+      <!-- Social Media Links -->
+      <div class="flex justify-center space-x-6 text-2xl">
+        <a href="#" class="hover:text-blue-400"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="hover:text-pink-500"><i class="fab fa-instagram"></i></a>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
